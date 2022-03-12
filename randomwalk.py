@@ -19,7 +19,8 @@ class RandomWalk:
 
             if x_step == 0 and y_step == 0:
                 continue
-
+                
+            # sum the last value of the list with axis_step var
             x = self.x_values[-1] + x_step
             y = self.y_values[-1] + y_step
 
